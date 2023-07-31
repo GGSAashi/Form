@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meet the Mentor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meet The Mentor</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Name">
+
+        <label for="mobile">Mobile No:</label>
+        <input type="text" id="mobile" name="mobile" required placeholder="Mobile No">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required placeholder="Location">
+
+        <label for="mode">Mode:</label>
+        <select id="mode" name="mode" required>
+            <option value="" disabled selected>Select Mode</option>
+            <option value="Online">Online</option>
+            <option value="Offline">Offline</option>
+        </select>
+
+        <label for="year">Year:</label>
+       <select id="year" name="year" required>
+            <option value="" disabled selected>Year</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+       </select>
+
+        <input type="submit" value="Submit">
+	<script>
+	
+    </form>
+</body>
+</html>
